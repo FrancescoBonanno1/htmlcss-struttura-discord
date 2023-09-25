@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: aquamarine;
+    height:500px;
+}
+#headercontainer{
+    height: 195px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 140px;
+
+}
+.flex-elements{
+    background-color: rgb(255, 187, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin: 0;
+}
+#hsecond{
+    background-color: blue;
+    height: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+#pinkbox{
+    height: 80%;
+    width: 60%;
+    background-color: rgb(248, 86, 173);
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+
+}
